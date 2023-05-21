@@ -31,7 +31,7 @@ class _todoAppState extends State<todoApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('TODO APP'), centerTitle: true),
+      appBar: AppBar(title: Text('TODO__APP'), centerTitle: true),
       floatingActionButton: FloatingActionButton(
         onPressed: () =>
             addTodo(), // Pass a callback function instead of invoking the method directly
